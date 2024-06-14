@@ -1,0 +1,71 @@
+.yellow{
+    color:yellow;
+}
+#greycol{
+    color:grey;
+}
+div + div > p{
+    color:red;
+}
+div + h3 + p{
+    color:green;
+}
+.text-box > h3:first-child{
+    color:pink;
+
+}
+
+.day{
+    color: brown;
+}
+
+.day:focus{
+    background-color: blueviolet;
+}
+
+a {
+    color: coral;
+}
+
+a:visited {
+     color: gold;
+}
+
+a:link {
+    color: indigo;
+}
+
+.day:nth-child(odd){
+    background-color: black;
+}
+
+.day:nth-child(even){
+    background-color: yellowgreen;
+}
+
+tr:last-child{
+    background-color: darkslategray;
+}
+tr:nth-child(odd){
+    background-color: royalblue;
+}
+
+tr:nth-child(even){    
+    background-color: darkorange;
+}
+
+tr:nth-child(2){
+    background-color: maroon;
+}
+
+.time:nth-child(-n+2){
+    background-color: yellow;
+}
+
+.time:nth-child(3n){
+    background-color: limegreen;
+}
+
+.time:nth-child(3){
+    background-color: sandybrown;
+}
